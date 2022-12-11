@@ -777,6 +777,8 @@ Console.ResetColor();
 
         static void MENU01()
         {
+
+        Console.BackgroundColor = ConsoleColor.White;    
         Console.ForegroundColor = ConsoleColor.Black;
         Console.WriteLine(" =========================================================================== ");
         Console.WriteLine("|                             [1]---JOGAR--------                            |");
@@ -790,6 +792,7 @@ Console.ResetColor();
 
        static void menu02()
         {
+            Console.BackgroundColor = ConsoleColor.White;
             Console.ForegroundColor = ConsoleColor.Black;
             Console.WriteLine(" =========================================================================== ");
             Console.WriteLine("|                             [1]---TABOADA----                             |");
@@ -803,6 +806,7 @@ Console.ResetColor();
 
   static void menu03()
         {
+            Console.BackgroundColor =ConsoleColor.White;
             Console.ForegroundColor = ConsoleColor.Black;
             Console.WriteLine(" =========================================================================== ");
             Console.WriteLine("|                             [1]---PROIBIDO------                          |");
@@ -814,10 +818,11 @@ Console.ResetColor();
     
 
     static void menu05()
-        {
+        {   
+            Console.BackgroundColor = ConsoleColor.White;
             Console.ForegroundColor = ConsoleColor.Black;
             Console.WriteLine(" =========================================================================== ");
-            Console.WriteLine("|                             [1]---JOGAR----                             |");
+            Console.WriteLine("|                             [1]---JOGAR----                               |");
             Console.WriteLine("|                             [3]---TERMINAR---                             |");
             Console.WriteLine(" =========================================================================== ");
 
@@ -854,7 +859,7 @@ Console.ResetColor();
 
         
        string  f5 = @$"[{NPC}]: os dados giraram e você tirou {valor} e eu tirei {valor2} 
-        ";
+";
 
 
        
@@ -875,7 +880,7 @@ Console.ResetColor();
     if (valor > valor2)
     {
         string r1 = @$"{NPC}: Parabéns, você tirou um número maio que o meu você ganhou
-        ";
+";
 
         for (int i16 = 0; i16 < r1.Length; i16++)
         {
@@ -890,7 +895,7 @@ Console.ResetColor();
     else if (valor < valor2)
     {
         string r2 = @$"{NPC}: Que pena para você e feliz para mim você perdeu 
-        ";
+";
 
     for (int i16 = 0; i16 < r2.Length; i16++)
         {
@@ -905,7 +910,7 @@ Console.ResetColor();
         else if (valor == valor2)
         {
             string r3 = @$"{NPC}: Olha que coisa em empatamos 
-            ";
+";
         for (int i17 = 0; i17 < r3.Length; i17++)
         {
             Console.Write(r3.ElementAt(i17));
@@ -978,22 +983,32 @@ while ( vezes <= 10 )
 
     Console.ResetColor();
 
+
+        Console.ForegroundColor = ConsoleColor.Yellow;
+
         Console.WriteLine("AGUARDE 5 SEGUNDOS:");
         Thread.Sleep(5000); 
-        Console.WriteLine(@"____________________
-                            |                  |
-                            | [____]     [___] |
-                            |      {||||}      |
-                            |                  |
-                            | [______________] | 
-                            |__________________|
+        Console.ResetColor();
+        Console.BackgroundColor = ConsoleColor.Magenta;
+        Console.ForegroundColor = ConsoleColor.Black;
+ Console.WriteLine(@"____________________
+                     |                  |
+                     | [____]     [___] |
+                     |      {||||}      |
+                     |                  |
+                     | [______________] | 
+                     |__________________|
         ");
-    
+    Console.ResetColor();
+    Console.ForegroundColor = ConsoleColor.Yellow;
      Console.WriteLine("Aquarde 5 segundos:");
 
-
+        Console.ResetColor();
 
         Thread.Sleep(5000);
+        Console.BackgroundColor = ConsoleColor.Magenta;
+        Console.ForegroundColor = ConsoleColor.Black;
+
 
 
     Console.WriteLine("   ___________________________");
@@ -1004,7 +1019,9 @@ while ( vezes <= 10 )
     Console.WriteLine("  |                          |");
     Console.WriteLine("  |    [_________________]   |");
     Console.WriteLine("  |__________________________|");
-     
+
+Console.ResetColor();
+
      
       menu05();
      

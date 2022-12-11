@@ -1,2 +1,32 @@
-# ORGANIZA-O-
-bom dia , boa tarde , boa noite sou saul kaique e  esse e meu projeto de mais de 1 mes planejando e pondo em pratica
+## COMO BAIXAR 
+- APERTE NO LINK
+- ESPERE BAIXAR 
+- PARA EXECULTAR SE ESTIVER PELO WINDOWS EPERTE 2 VEZES COM O BOTÃO ESQUERDO
+
+# DOWNLOAD NPC
+
+- [NPC.ZIP](DIST/YUSANO.zip)
+- [NPC.RAR](DIST/YUSANO.rar)
+
+
+
+
+
+## _screenshot_
+
+
+
+
+
+
+
+
+
+# agradecimentos 
+
+- [prof ermogenes](https://github.com/ermogenes)
+- [etec adolpho berezin](https://eteab.com.br/cms/)
+- [dev C#](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/README.md)
+- [Yukio](https://github.com/yukio-sato) 
+
+Todos os direitos reservados.Pirataria e crime
