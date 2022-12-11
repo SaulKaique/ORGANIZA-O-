@@ -5,8 +5,8 @@
 
 # DOWNLOAD NPC
 
-- [NPC.ZIP](dist/YUSANO.zip)
-- [NPC.RAR](dist/YUSANO.rar)
+- [NPC.ZIP](DIST/YUSANO2.zip)
+- [NPC.RAR](DIST/YUSANO2.rar)
 
 
 
