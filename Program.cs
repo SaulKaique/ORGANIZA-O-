@@ -92,7 +92,7 @@ você pode escolher o que você vai ver no projeto...:
 
 
 
-
+Console.ForegroundColor = ConsoleColor.DarkYellow;
 
             string dfala = @"Agora vou apresentar suas opçoes:
                       ";
@@ -104,7 +104,7 @@ você pode escolher o que você vai ver no projeto...:
 
             }
 
-
+Console.ResetColor();
         Console.Clear();
             MENU01();
 
@@ -451,7 +451,7 @@ Console.ForegroundColor = ConsoleColor.Yellow;
 Console.ResetColor();
 
 
-Console.ResetColor();
+
 
 
 
@@ -476,7 +476,7 @@ Console.ResetColor();
             Console.Write(login.ElementAt(i13));
             Thread.Sleep(200);
             Console.Clear();
-            Console.ResetColor();
+            
         
 
         }
@@ -839,7 +839,11 @@ Console.ResetColor();
         string NPC = "YUSANO";
 
       string f4 = @$"[{NPC}]: vou girar os dados vamos ver os resultados
-        "; 
+"; 
+       
+       
+      
+       
        for (int i14 = 0; i14 < f4.Length; i14++)
         {
             Console.Write(f4.ElementAt(i14));
@@ -863,7 +867,7 @@ Console.ResetColor();
 
 
        
-
+ Console.ForegroundColor = ConsoleColor.DarkBlue;
 
         for (int i15 = 0; i15 < f5.Length; i15++)
         {
@@ -874,12 +878,16 @@ Console.ResetColor();
         }
 
 
-        
+        Console.ResetColor();
+
+    Console.ForegroundColor = ConsoleColor.DarkGreen;
 
 
     if (valor > valor2)
     {
-        string r1 = @$"{NPC}: Parabéns, você tirou um número maio que o meu você ganhou
+        string r1 = @$"{NPC}: Parabéns, você tirou um número maior você ganhou
+
+
 ";
 
         for (int i16 = 0; i16 < r1.Length; i16++)
@@ -889,13 +897,22 @@ Console.ResetColor();
 
         }
 
-
+Console.ResetColor();
     }
+
+
+
+
 
     else if (valor < valor2)
     {
-        string r2 = @$"{NPC}: Que pena para você e feliz para mim você perdeu 
+        string r2 = @$"[{NPC}]: Que pena para você e feliz para mim você perdeu 
+
+
 ";
+
+
+        Console.ForegroundColor = ConsoleColor.Red;
 
     for (int i16 = 0; i16 < r2.Length; i16++)
         {
@@ -904,12 +921,22 @@ Console.ResetColor();
 
         }
 
+
+Console.ResetColor();
+
+Console.ResetColor();
+Console.ForegroundColor = ConsoleColor.DarkYellow;
+
     }
 
+        
+        
 
         else if (valor == valor2)
         {
-            string r3 = @$"{NPC}: Olha que coisa em empatamos 
+            string r3 = @$"[{NPC}]: Olha que coisa em empatamos 
+
+
 ";
         for (int i17 = 0; i17 < r3.Length; i17++)
         {
@@ -918,7 +945,7 @@ Console.ResetColor();
 
         }
 
-
+        Console.ResetColor();
         }
 
 
@@ -930,7 +957,7 @@ Console.ResetColor();
 
                     menu03();
 
-            Console.Write("{ vou querer agora :");
+            Console.Write(" vou querer agora :");
 
         int destino04 = Convert.ToInt32(Console.ReadLine());
         
@@ -1198,7 +1225,7 @@ static void Proibido()
 
     string P1 = @$"{NPC}: {Nome}  PARECE QUE ALGUEM NÃO QUIS FAZER O QUE EU PEDI COM ISSO VOCÊ
     SOFRERA UMA PENALIDADE  PEQUENA TE PERDOU MAS NÃO ME DESOBEDEÇA NOVAMENTE QUANDO EU PEDIR
-    ";
+";
 
     string P2 = @$"{NPC}: SUA PENALIDADE É QUE EU VOU APAGAR TODOS OS SEU DADOS  , TOMAR SEU NOME
     E MESMO QUE SEJA FALSO EU VOU ACESSAR SEU COMPUTADOR E VOU ACHAR SEU VERDADEIRO NOME E VOU 
